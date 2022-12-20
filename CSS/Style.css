@@ -15,5 +15,7 @@ html {
     font-family: "roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #F6F0EA;
+    background-image: url("/images/backgroundd.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
