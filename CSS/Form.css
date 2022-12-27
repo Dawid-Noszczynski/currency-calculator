@@ -1,12 +1,14 @@
 .form {
-    max-width: 500px;
-    margin: 0 auto;
     padding: 20px;
     background-color: #F6F0EA;
     border-radius: 15px;
 }
 
 .form__fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
     border: none;
 }
 
@@ -33,7 +35,7 @@
 }
 
 .form__field {
-    max-width: 500px;
+    flex-basis: 500px;
     width: 100%;
     padding: 5px;
     border: 2px solid #383535;
@@ -44,12 +46,9 @@
 }
 
 .form__button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    max-width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-basis: 500px;
     width: 100%;
     padding: 10px;
     border: none;
