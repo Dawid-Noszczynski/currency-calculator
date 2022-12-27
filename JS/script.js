@@ -1,5 +1,5 @@
 {
-    const currencyValue = (currencyElement) => {
+    const getCurrencyRate = (currencyElement) => {
         const currency = currencyElement.value;
 
         const usdRate = 4.48;
@@ -31,7 +31,7 @@
         const amountElement = document.querySelector(".js-amount");
 
         const amount = amountElement.value;
-        const result = amount / currencyValue(currencyElement);
+        const result = amount / getCurrencyRate(currencyElement);
 
         updateResultTest(result, currencyElement);
     };
@@ -45,8 +45,3 @@
     init();
 
 }
-
-
-
-
-
