@@ -29,7 +29,7 @@
     font-size: 16px;
 }
 
-.form__labelText--result{
+.form__labelText--result {
     font-size: 30px;
     margin: 5px;
 }
@@ -61,7 +61,7 @@
     background-color: #d25431;
 }
 
-.form__result{
+.form__result {
     max-width: 500px;
     width: 100%;
     text-align: center;
